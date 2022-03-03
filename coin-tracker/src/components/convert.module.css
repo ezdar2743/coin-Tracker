@@ -1,0 +1,12 @@
+.form {
+  margin: 30px;
+}
+.form button {
+  background-color: tomato;
+  color: ghostwhite;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}

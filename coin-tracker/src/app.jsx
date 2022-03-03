@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Convert from './components/convert';
 import Select from './components/select';
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
     <>
     <h1>{`Coin Tracker(${coinList.length})`}</h1>
     {loading ? <strong>Loading..</strong> : <Select coinList={coinList}/>}
-    <Convert/>
+    
     
     
     
